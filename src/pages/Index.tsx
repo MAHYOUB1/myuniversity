@@ -128,10 +128,7 @@ const Index = () => {
           <FeaturesGrid />
         </motion.div>
         
-        {/* Latest News - Sixth priority */}
-        <motion.div variants={itemVariants} className="mb-6">
-          <LatestNews />
-        </motion.div>
+        
         {/* Academic Status - Second priority */}
         <motion.div variants={itemVariants} className="mb-6">
           <AcademicStatus 
@@ -247,7 +244,10 @@ const Index = () => {
           </motion.div>
         </div>
       
-        
+        {/* Latest News - Sixth priority */}
+        <motion.div variants={itemVariants} className="mb-6">
+          <LatestNews />
+        </motion.div>
         {/* Login/Registration Buttons - Seventh priority */}
         <motion.div variants={itemVariants} className="mb-6">
           <div className="flex justify-center gap-4">
