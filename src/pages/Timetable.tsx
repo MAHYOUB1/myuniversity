@@ -36,7 +36,7 @@ const Timetable = () => {
     {
       id: 1,
       title: 'اختبار منتصف الفصل - هندسة البرمجيات',
-      date: '12 مايو 2024',
+      date: '12 مايو 2025',
       time: '10:00 صباحاً',
       location: 'قاعة الاختبارات المركزية',
       type: 'exam'
@@ -44,17 +44,17 @@ const Timetable = () => {
     {
       id: 2,
       title: 'تسليم مشروع - الذكاء الاصطناعي',
-      date: '15 مايو 2024',
+      date: '15 مايو 2025',
       time: '11:59 مساءً',
       location: 'عبر المنصة الإلكترونية',
       type: 'assignment'
     },
     {
       id: 3,
-      title: 'محاضرة إضافية - قواعد البيانات المتقدمة',
-      date: '18 مايو 2024',
+      title: 'محاضرة إضافية - قواعد البيانات ',
+      date: '18 مايو 2025',
       time: '2:00 ظهراً',
-      location: 'قاعة 305 - مبنى B',
+      location: 'قاعة 305 ',
       type: 'lecture'
     }
   ];
@@ -86,7 +86,7 @@ const Timetable = () => {
             </h1>
             <p className="text-sm text-gray-600 flex items-center gap-1 mt-1">
               <Calendar className="h-4 w-4 text-teal-600" />
-              <span>الفصل الدراسي الثاني 2023-2024</span>
+              <span>الفصل الدراسي الثاني 2024-2025</span>
             </p>
           </div>
           
@@ -97,8 +97,8 @@ const Timetable = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectItem value="current">الفصل الحالي</SelectItem>
-                <SelectItem value="fall2023">الفصل الأول 2023-2024</SelectItem>
-                <SelectItem value="spring2023">الفصل الثاني 2022-2023</SelectItem>
+                <SelectItem value="fall2023">الفصل الأول 2024-2025</SelectItem>
+                <SelectItem value="spring2023">الفصل الثاني 2024-2025</SelectItem>
               </SelectContent>
             </Select>
             
@@ -223,7 +223,7 @@ const Timetable = () => {
                               {time === "16:00" && (
                                 <div className="bg-teal-100 border-r-4 border-r-teal-500 p-1 rounded text-xs h-full flex flex-col justify-center">
                                   <div className="font-medium">أمن المعلومات</div>
-                                  <div className="text-gray-600">16:00 - 18:00</div>
+                                  <div className="text-gray-600">9:00 - 11:00</div>
                                   <div className="text-gray-600">قاعة 303</div>
                                 </div>
                               )}
@@ -232,7 +232,7 @@ const Timetable = () => {
                               {time === "10:00" && (
                                 <div className="bg-green-100 border-r-4 border-r-green-500 p-1 rounded text-xs h-full flex flex-col justify-center">
                                   <div className="font-medium">هندسة البرمجيات (عملي)</div>
-                                  <div className="text-gray-600">10:00 - 12:00</div>
+                                  <div className="text-gray-600">11:00 - 1:00</div>
                                   <div className="text-gray-600">معمل الحاسوب 1</div>
                                 </div>
                               )}
@@ -260,7 +260,7 @@ const Timetable = () => {
                         <ChevronRight className="h-4 w-4" />
                       </Button>
                       <Button variant="outline" className="rounded-none border-x-0 font-medium px-6">
-                        الأحد، 5 مايو 2024
+                        الأحد، 5 مايو 2025
                       </Button>
                       <Button variant="outline" className="rounded-l-none">
                         <ChevronLeft className="h-4 w-4" />
@@ -282,7 +282,7 @@ const Timetable = () => {
                         </div>
                         <div className="text-right">
                           <div className="text-sm font-medium">08:30 - 10:30</div>
-                          <div className="text-xs text-gray-500">قاعة 305 - مبنى B</div>
+                          <div className="text-xs text-gray-500">قاعة 305 </div>
                         </div>
                       </div>
                       <div className="text-xs text-gray-600 bg-gray-50 p-2 rounded">
@@ -298,13 +298,13 @@ const Timetable = () => {
                             <Clock className="h-5 w-5 text-green-600" />
                           </div>
                           <div>
-                            <h3 className="font-semibold">قواعد البيانات المتقدمة</h3>
+                            <h3 className="font-semibold">قواعد البيانات </h3>
                             <p className="text-sm text-gray-500">عملي</p>
                           </div>
                         </div>
                         <div className="text-right">
                           <div className="text-sm font-medium">11:00 - 13:00</div>
-                          <div className="text-xs text-gray-500">معمل الحاسوب 2 - مبنى C</div>
+                          <div className="text-xs text-gray-500">معمل الحاسوب 2 </div>
                         </div>
                       </div>
                       <div className="text-xs text-gray-600 bg-gray-50 p-2 rounded">

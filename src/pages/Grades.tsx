@@ -18,8 +18,8 @@ import {
 // Mock data for grades
 const semesters = [
   {
-    id: 'spring2024',
-    name: 'الفصل الدراسي الثاني 2023-2024',
+    id: 'spring2025',
+    name: 'الفصل الدراسي الثاني 2024-2025',
     gpa: 3.85,
     courses: [
       {

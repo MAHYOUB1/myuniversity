@@ -170,9 +170,9 @@ const Payment = () => {
               <SelectValue placeholder="اختر الفصل الدراسي" />
             </SelectTrigger>
             <SelectContent>
-              <SelectItem value="الفصل الدراسي الأول 2023-2024">الفصل الدراسي الأول 2023-2024</SelectItem>
-              <SelectItem value="الفصل الدراسي الثاني 2023-2024">الفصل الدراسي الثاني 2023-2024</SelectItem>
-              <SelectItem value="الفصل الصيفي 2024">الفصل الصيفي 2024</SelectItem>
+              <SelectItem value="الفصل الدراسي الأول 2024-2025">الفصل الدراسي الأول 2024-2025</SelectItem>
+              <SelectItem value="الفصل الدراسي الثاني 2024-2025">الفصل الدراسي الثاني 2024-2025</SelectItem>
+              <SelectItem value="الفصل الصيفي 2025">الفصل الصيفي 2025</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -336,7 +336,7 @@ const Payment = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-white via-teal-50 to-blue-50 pb-24">
-      <AppHeader userName="أحمد القباطي" />
+      <AppHeader userName="مهيوب عبدالغني " />
       
       <motion.div 
         className="container px-4 sm:px-6 pt-6 pb-20 max-w-4xl mx-auto"
@@ -426,7 +426,7 @@ const Payment = () => {
                   
                   <div className="p-3 border rounded-lg bg-gray-50 text-sm text-gray-600">
                     <p className="text-center">للمساعدة أو الاستفسارات</p>
-                    <p className="text-center font-medium mt-1">اتصل بنا على 800-123-4567</p>
+                    <p className="text-center font-medium mt-1">اتصل بنا على 960-928-733</p>
                   </div>
                 </div>
               </CardContent>

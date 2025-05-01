@@ -47,14 +47,14 @@ const Index = () => {
       id: 1,
       course: "هندسة البرمجيات",
       time: "08:30 - 10:30",
-      location: "قاعة 305 - مبنى B",
+      location: "قاعة 305 ",
       type: "محاضرة"
     },
     {
       id: 2,
       course: "قواعد البيانات ",
       time: "11:00 - 13:00",
-      location: "معمل الحاسوب 2 - مبنى C",
+      location: "معمل الحاسوب 2 ",
       type: "عملي"
     }
   ];
@@ -117,7 +117,21 @@ const Index = () => {
             feesStatus={studentData.feesStatus}
           />
         </motion.div>
+          
+        {/* Motivational Banner - Fourth priority */}
+        <motion.div variants={itemVariants} className="mb-6">
+          <MotivationalBanner />
+        </motion.div>
         
+        {/* Features Grid - Fifth priority */}
+        <motion.div variants={itemVariants} className="mb-6">
+          <FeaturesGrid />
+        </motion.div>
+        
+        {/* Latest News - Sixth priority */}
+        <motion.div variants={itemVariants} className="mb-6">
+          <LatestNews />
+        </motion.div>
         {/* Academic Status - Second priority */}
         <motion.div variants={itemVariants} className="mb-6">
           <AcademicStatus 
@@ -232,21 +246,7 @@ const Index = () => {
             </Card>
           </motion.div>
         </div>
-        
-        {/* Motivational Banner - Fourth priority */}
-        <motion.div variants={itemVariants} className="mb-6">
-          <MotivationalBanner />
-        </motion.div>
-        
-        {/* Features Grid - Fifth priority */}
-        <motion.div variants={itemVariants} className="mb-6">
-          <FeaturesGrid />
-        </motion.div>
-        
-        {/* Latest News - Sixth priority */}
-        <motion.div variants={itemVariants} className="mb-6">
-          <LatestNews />
-        </motion.div>
+      
         
         {/* Login/Registration Buttons - Seventh priority */}
         <motion.div variants={itemVariants} className="mb-6">
