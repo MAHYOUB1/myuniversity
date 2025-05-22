@@ -196,7 +196,7 @@ const Timetable = () => {
                           <th className="border px-4 py-2 text-center">الخميس</th>
                         </tr>
                       </thead>
-                      <tbody>
+                       <tbody>
                         {["08:00", "09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00", "17:00"].map((time, index) => (
                           <tr key={index} className={index % 2 === 0 ? "bg-white" : "bg-gray-50"}>
                             <td className="border px-2 py-3 text-center text-sm font-medium">
@@ -206,7 +206,7 @@ const Timetable = () => {
                             <td className="border p-1 h-16">
                               {time === "09:00" && (
                                 <div className="bg-blue-100 border-r-4 border-r-blue-500 p-1 rounded text-xs h-full flex flex-col justify-center">
-                                  <div className="font-medium">شبكات الحاسوب</div>
+                                  <div className="font-medium">محاسبة</div>
                                   <div className="text-gray-600">09:00 - 11:00</div>
                                   <div className="text-gray-600">قاعة 201</div>
                                 </div>
@@ -215,7 +215,7 @@ const Timetable = () => {
                             <td className="border p-1 h-16">
                               {time === "13:00" && (
                                 <div className="bg-purple-100 border-r-4 border-r-purple-500 p-1 rounded text-xs h-full flex flex-col justify-center">
-                                  <div className="font-medium">الذكاء الاصطناعي</div>
+                                  <div className="font-medium">برمحة للامن السيبراني</div>
                                   <div className="text-gray-600">13:30 - 15:30</div>
                                   <div className="text-gray-600">قاعة 102</div>
                                 </div>
@@ -223,7 +223,7 @@ const Timetable = () => {
                               {time === "16:00" && (
                                 <div className="bg-teal-100 border-r-4 border-r-teal-500 p-1 rounded text-xs h-full flex flex-col justify-center">
                                   <div className="font-medium">أمن المعلومات</div>
-                                  <div className="text-gray-600">9:00 - 11:00</div>
+                                  <div className="text-gray-600">16:00 - 18:00</div>
                                   <div className="text-gray-600">قاعة 303</div>
                                 </div>
                               )}
@@ -231,18 +231,18 @@ const Timetable = () => {
                             <td className="border p-1 h-16">
                               {time === "10:00" && (
                                 <div className="bg-green-100 border-r-4 border-r-green-500 p-1 rounded text-xs h-full flex flex-col justify-center">
-                                  <div className="font-medium">هندسة البرمجيات (عملي)</div>
-                                  <div className="text-gray-600">11:00 - 1:00</div>
-                                  <div className="text-gray-600">معمل الحاسوب 1</div>
+                                  <div className="font-medium">هندسة البرمجيات </div>
+                                  <div className="text-gray-600">10:00 - 12:00</div>
+                                  <div className="text-gray-600">قاعة 101</div>
                                 </div>
                               )}
                             </td>
                             <td className="border p-1 h-16">
                               {time === "12:00" && (
                                 <div className="bg-amber-100 border-r-4 border-r-amber-500 p-1 rounded text-xs h-full flex flex-col justify-center">
-                                  <div className="font-medium">مشروع التخرج</div>
-                                  <div className="text-gray-600">12:30 - 14:30</div>
-                                  <div className="text-gray-600">قاعة المناقشات</div>
+                                  <div className="font-medium">قواعد البيانات</div>
+                                  <div className="text-gray-600">12:30 - 2:30</div>
+                                  <div className="text-gray-600">قاعة 101</div>
                                 </div>
                               )}
                             </td>
@@ -260,7 +260,7 @@ const Timetable = () => {
                         <ChevronRight className="h-4 w-4" />
                       </Button>
                       <Button variant="outline" className="rounded-none border-x-0 font-medium px-6">
-                        الأحد، 5 مايو 2025
+                        الأحد، 5 مايو 2024
                       </Button>
                       <Button variant="outline" className="rounded-l-none">
                         <ChevronLeft className="h-4 w-4" />
@@ -282,7 +282,7 @@ const Timetable = () => {
                         </div>
                         <div className="text-right">
                           <div className="text-sm font-medium">08:30 - 10:30</div>
-                          <div className="text-xs text-gray-500">قاعة 305 </div>
+                          <div className="text-xs text-gray-500">قاعة 305 - مبنى B</div>
                         </div>
                       </div>
                       <div className="text-xs text-gray-600 bg-gray-50 p-2 rounded">
@@ -303,8 +303,8 @@ const Timetable = () => {
                           </div>
                         </div>
                         <div className="text-right">
-                          <div className="text-sm font-medium">11:00 - 13:00</div>
-                          <div className="text-xs text-gray-500">معمل الحاسوب 2 </div>
+                          <div className="text-sm font-medium">11:00 - 1:00</div>
+                          <div className="text-xs text-gray-500">معمل الحاسوب د </div>
                         </div>
                       </div>
                       <div className="text-xs text-gray-600 bg-gray-50 p-2 rounded">
@@ -324,5 +324,6 @@ const Timetable = () => {
     </div>
   );
 };
+
 
 export default Timetable;
