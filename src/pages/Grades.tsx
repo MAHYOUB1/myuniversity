@@ -153,8 +153,7 @@ const semesters = [
   }
 ];
 
-  
-];
+
 
 const getGradeColor = (grade: string) => {
   switch(grade) {
