@@ -408,7 +408,7 @@ const Payment = () => {
                     <p className="text-center">للمساعدة أو الاستفسارات</p>
                     <p className="text-center font-medium mt-1">اتصل بنا على 960-928-733</p>
                   </div>
-                </div>
+              
               </CardContent>
               
             </Card>
