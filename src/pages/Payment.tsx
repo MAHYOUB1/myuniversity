@@ -400,43 +400,17 @@ const Payment = () => {
           <div className="md:col-span-1">
             <Card className="shadow-md">
               <CardHeader>
-                <CardTitle className="text-sm font-medium">طرق الدفع المدعومة</CardTitle>
+                <CardTitle className="text-sm font-medium">طرق الدفع المدعومة حاليا عن طريق بنك الكريمي</CardTitle>
               </CardHeader>
               <CardContent>
-                <div className="space-y-4">
-                  <div className="flex items-center gap-3 p-3 border rounded-lg">
-                    <div className="h-10 w-10 bg-blue-100 rounded-full flex items-center justify-center">
-                      <span className="text-blue-600 font-bold">K</span>
-                    </div>
-                    <div>
-                      <h3 className="font-medium">كاش موبايل</h3>
-                      <p className="text-xs text-gray-500">خدمة الدفع عبر الموبايل</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-center gap-3 p-3 border rounded-lg">
-                    <div className="h-10 w-10 bg-amber-100 rounded-full flex items-center justify-center">
-                      <CreditCard className="h-5 w-5 text-amber-600" />
-                    </div>
-                    <div>
-                      <h3 className="font-medium">بطاقة ائتمان</h3>
-                      <p className="text-xs text-gray-500">فيزا / ماستر كارد</p>
-                    </div>
-                  </div>
-                  
+                
                   <div className="p-3 border rounded-lg bg-gray-50 text-sm text-gray-600">
                     <p className="text-center">للمساعدة أو الاستفسارات</p>
                     <p className="text-center font-medium mt-1">اتصل بنا على 960-928-733</p>
                   </div>
                 </div>
               </CardContent>
-              <CardFooter className="flex justify-center">
-                <img 
-                  src="https://via.placeholder.com/200x40?text=SECURED_PAYMENT" 
-                  alt="معاملات آمنة" 
-                  className="h-8 object-contain opacity-60"
-                />
-              </CardFooter>
+              
             </Card>
           </div>
         </motion.div>

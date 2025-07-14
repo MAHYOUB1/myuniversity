@@ -43,7 +43,7 @@ const semesters = [
       {
         id: 2,
         code: 'CS402',
-        courseName: 'قواعد البيانات ',
+        name: 'قواعد البيانات ',
         credits: 3,
         grade: 'A-',
         points: 3.7,
@@ -60,7 +60,7 @@ const semesters = [
       {
         id: 3,
         code: 'CS403',
-        courseName: "برمحة للامن السيبراني",
+        name: "برمحة للامن السيبراني",
         credits: 3,
         grade: 'B+',
         points: 3.3,
@@ -77,7 +77,7 @@ const semesters = [
       {
         id: 4,
         code: 'CS404',
-        courseName: "انجليزي تقني",
+        name: "انجليزي تقني",
         credits: 3,
         grade: 'A',
         points: 4.0,
@@ -94,7 +94,7 @@ const semesters = [
       {
         id: 5,
         code: 'CS405',
-        courseName: "محاسبة",
+        name: "محاسبة",
         credits: 3,
         grade: 'A-',
         points: 3.7,
@@ -112,7 +112,7 @@ const semesters = [
   },
   {
     id: 'fall2023',
-    name: 'الفصل الدراسي الأول 2024-2025',
+    name: 'الفصل الدراسي الأول 2023-2024',
     gpa: 3.7,
     courses: [
       {
