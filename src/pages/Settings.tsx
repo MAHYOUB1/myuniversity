@@ -207,8 +207,8 @@ const Settings = () => {
       </Dialog>
       
       <div className="mt-8 text-center text-xs text-gray-500">
-        <p>إصدار التطبيق: 1.0.0</p>
-        <p className="mt-1">© 2024   مهيوب الحمادي  - جميع الحقوق محفوظة</p>
+        <p>إصدار التطبيق: 1.1.0</p>
+        <p className="mt-1">© جميع الحقوق محفوظة - للمهندس : مهيوب الحمادي 2025</p>
       </div>
       
       <NavigationBar />

@@ -18,9 +18,10 @@ import {
 // Mock data for grades
 const semesters = [
   {
-    id: 'spring2024',
-    name: 'الفصل الدراسي الثاني 2023-2024',
+    id: 'spring2025',
+    name: 'الفصل الدراسي الثاني 2024-2025',
     gpa: 3.85,
+    
     courses: [
       {
         id: 1,
@@ -30,7 +31,7 @@ const semesters = [
         grade: 'A',
         points: 4.0,
         percentageScore: 94,
-        instructor: 'د. أحمد محمد',
+        instructor:"د. عبدالملك القباطي",
         details: [
           { name: 'اختبار منتصف الفصل', score: 18, total: 20 },
           { name: 'الواجبات', score: 14, total: 15 },
@@ -47,7 +48,7 @@ const semesters = [
         grade: 'A-',
         points: 3.7,
         percentageScore: 89,
-        instructor: 'د. خالد',
+        instructor:  'د. عيسى ',
         details: [
           { name: 'اختبار منتصف الفصل', score: 17, total: 20 },
           { name: 'الواجبات', score: 13, total: 15 },
@@ -59,12 +60,12 @@ const semesters = [
       {
         id: 3,
         code: 'CS403',
-        name: 'شبكات الحاسوب',
+        name: "برمحة للامن السيبراني",
         credits: 3,
         grade: 'B+',
         points: 3.3,
         percentageScore: 86,
-        instructor: 'د. محمد علي',
+       instructor: "م. سامية قاسم",
         details: [
           { name: 'اختبار منتصف الفصل', score: 16, total: 20 },
           { name: 'الواجبات', score: 13, total: 15 },
@@ -76,29 +77,29 @@ const semesters = [
       {
         id: 4,
         code: 'CS404',
-        name: 'الذكاء الاصطناعي',
+        name: "انجليزي تقني",
         credits: 3,
         grade: 'A',
         points: 4.0,
         percentageScore: 92,
-        instructor: 'د. حسن',
+        instructor:"د.الحريبي",
         details: [
           { name: 'اختبار منتصف الفصل', score: 19, total: 20 },
           { name: 'الواجبات', score: 14, total: 15 },
           { name: 'المشاركة', score: 9, total: 10 },
-          { name: 'المشروع', score: 24, total: 25 },
+          
           { name: 'الاختبار النهائي', score: 26, total: 30 }
         ]
       },
       {
         id: 5,
         code: 'CS405',
-        name: 'أمن المعلومات',
+        name: "محاسبة",
         credits: 3,
         grade: 'A-',
         points: 3.7,
         percentageScore: 88,
-        instructor: 'د. خالد عبدالله',
+        instructor: "د. اليوسفي",
         details: [
           { name: 'اختبار منتصف الفصل', score: 18, total: 20 },
           { name: 'الواجبات', score: 12, total: 15 },
@@ -111,18 +112,18 @@ const semesters = [
   },
   {
     id: 'fall2023',
-    name: 'الفصل الدراسي الأول 2024-2025',
+    name: 'الفصل الدراسي الأول 2023-2024',
     gpa: 3.7,
     courses: [
       {
         id: 6,
         code: 'CS301',
-        name: 'نظم التشغيل',
+        name: "c++",
         credits: 3,
         grade: 'B+',
         points: 3.3,
         percentageScore: 87,
-        instructor: 'د. عمر السيد',
+        instructor: 'د. شيماء ',
         details: [
           { name: 'اختبار منتصف الفصل', score: 17, total: 20 },
           { name: 'الواجبات', score: 13, total: 15 },
@@ -134,12 +135,12 @@ const semesters = [
       {
         id: 7,
         code: 'CS302',
-        name: 'تطوير تطبيقات الويب',
+        name: ' تطبيقات الويب',
         credits: 3,
         grade: 'A',
         points: 4.0,
         percentageScore: 93,
-        instructor: 'د. أحمد',
+        instructor: 'د.انساب',
         details: [
           { name: 'اختبار منتصف الفصل', score: 19, total: 20 },
           { name: 'الواجبات', score: 14, total: 15 },
@@ -151,6 +152,8 @@ const semesters = [
     ]
   }
 ];
+
+
 
 const getGradeColor = (grade: string) => {
   switch(grade) {

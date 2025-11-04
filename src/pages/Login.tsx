@@ -57,7 +57,7 @@ const Login = () => {
           </div>
         </div>
         <h1 className="text-3xl font-bold text-center bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent mb-2">
-          بوابة الطالب الجامعية
+        جامعتي
         </h1>
         <p className="text-gray-600 text-center mb-8">
           قم بتسجيل الدخول للوصول إلى حسابك

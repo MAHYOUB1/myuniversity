@@ -13,54 +13,54 @@ const scheduleData = {
       id: 1,
       courseName: 'هندسة البرمجيات',
       courseCode: 'CS401',
-      startTime: '08:30',
-      endTime: '10:30',
-      instructor: 'د. أحمد محمد',
-      location: 'قاعة 305 - مبنى B',
+      startTime: '08:00',
+      endTime: '10:00',
+      instructor:"د. عبدالملك القباطي",
+      location: 'قاعة 101 ',
       type: 'محاضرة'
     },
     {
       id: 2,
-      courseName: 'قواعد البيانات المتقدمة',
+      courseName: 'قواعد البيانات ',
       courseCode: 'CS402',
       startTime: '11:00',
       endTime: '13:00',
-      instructor: 'د. سارة خالد',
-      location: 'معمل الحاسوب 2 - مبنى C',
-      type: 'عملي'
+      instructor:  'د. عيسى ',
+      location: 'قاعة 101',
+      type: 'محاضرة'
     }
   ],
   monday: [
     {
       id: 3,
-      courseName: 'شبكات الحاسوب',
+      courseName: "برمحة للامن السيبراني",
       courseCode: 'CS403',
       startTime: '09:00',
       endTime: '11:00',
-      instructor: 'د. محمد علي',
-      location: 'قاعة 201 - مبنى A',
+      instructor: "م. سامية قاسم",
+      location: "305",
       type: 'محاضرة'
     }
   ],
   tuesday: [
     {
       id: 4,
-      courseName: 'الذكاء الاصطناعي',
+      courseName: "انجليزي تقني",
       courseCode: 'CS404',
       startTime: '13:30',
       endTime: '15:30',
-      instructor: 'د. فاطمة حسن',
-      location: 'قاعة 102 - مبنى D',
+      instructor:"د.الحريبي",
+      location: "القاعة 305",
       type: 'محاضرة'
     },
     {
       id: 5,
-      courseName: 'أمن المعلومات',
+      courseName: "محاسبة",
       courseCode: 'CS405',
       startTime: '16:00',
       endTime: '18:00',
-      instructor: 'د. خالد عبدالله',
-      location: 'قاعة 303 - مبنى B',
+      instructor: "د. اليوسفي",
+      location: 'مدرج الكلية',
       type: 'محاضرة'
     }
   ],
@@ -71,21 +71,21 @@ const scheduleData = {
       courseCode: 'CS401',
       startTime: '10:00',
       endTime: '12:00',
-      instructor: 'م. نورة احمد',
-      location: 'معمل الحاسوب 1 - مبنى C',
+      instructor: 'م. عبدالله احمد',
+      location: "معمل د",
       type: 'عملي'
     }
   ],
   thursday: [
     {
       id: 7,
-      courseName: 'مشروع التخرج',
+      courseName: "تطوير تطبيقات الويب",
       courseCode: 'CS499',
-      startTime: '12:30',
-      endTime: '14:30',
-      instructor: 'د. عبدالرحمن محمد',
-      location: 'قاعة المناقشات - مبنى E',
-      type: 'إشراف'
+      startTime: '10:30',
+      endTime: '11:30',
+      instructor: "د.احمد الشميري",
+      location: "القاعة 101",
+      type: 'محاضرة'
     }
   ],
   friday: [],

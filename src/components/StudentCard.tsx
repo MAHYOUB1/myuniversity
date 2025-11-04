@@ -78,16 +78,7 @@ const StudentCard: React.FC<StudentCardProps> = ({
       <div className="relative neumorph p-4 bg-gradient-to-r from-white to-gray-50 border-t border-white">
         {/* Semi-transparent university logo */}
       
-        <div className="absolute inset-5 flex items-center justify-center opacity-10 pointer-events-none overflow-hidden">
-                  <div className="w-full   font-bold">
-                      <img 
-                    src="https://iconape.com/wp-content/files/jz/366850/png/366850.png" 
-                    alt="حامعة تعز" 
-                    className=" object-contain"
-                  />
-                  </div>
-                
-        </div>
+       
         
         <div className="flex items-center space-x-4 space-x-reverse">
           <div className="relative">

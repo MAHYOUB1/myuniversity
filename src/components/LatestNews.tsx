@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 const newsItems = [
   {
     id: 1,
-    title: 'بدء التسجيل للفصل الصيفي 2024',
-    date: '1 مايو 2024',
+    title: 'بدءالتسجيل للفصل الصيفي 2025',
+    date: '1 مايو 2025',
     category: 'إعلان',
     categoryColor: 'bg-blue-500',
     excerpt: 'تعلن عمادة القبول والتسجيل عن بدء التسجيل للفصل الصيفي...'
@@ -18,7 +18,7 @@ const newsItems = [
   {
     id: 2,
     title: 'مؤتمر التقنيات الحديثة في الهندسة',
-    date: '15 مايو 2024',
+    date: '15 مايو 2025',
     category: 'فعاليات',
     categoryColor: 'bg-purple-500',
     excerpt: 'تنظم كلية الهندسة مؤتمراً علمياً حول التقنيات الحديثة...'
