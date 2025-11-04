@@ -28,7 +28,7 @@ const AppHeader = ({ userName }: { userName?: string }) => {
             بوابة جامعة تعز الإلكترونية
           </span>
           <span className="text-lg font-bold bg-gradient-to-r from-teal-600 to-blue-600 bg-clip-text text-transparent sm:hidden">
-            جامعتي
+            جامعة تعز
           </span>
         </Link>
         
